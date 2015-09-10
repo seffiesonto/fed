@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8"/>
+    <title>Frontend development week 1.2</title>
+</head>
+
+<body>
+   <h1>Aanmelden</h1>
+
+   <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+lopen de studenten stage, in het tweede en afstudeerjaar. </p>
+
+  <p><em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+Amsterdam.</em></p>
+
+   <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u <a href="https://github.com/CMDA/FED1/blob/gh-pages/Maakopdracht/Artikelpagina%20-%20Opleiding%2020140908.pdf">contact</a> met ons op.</p>
+
+
+<!--Contactgegevens-->
+
+<h2>Contactgegevens:</h2>
+<form>
+ <p>
+<label>Naam:
+<input type="text" name="naam" /></label>
+<br/>
+<label>Adres:
+<input type="text" name="adres" /></label>
+<br/>
+<label>Postcode:
+<input type="text" name="postcode" /></label>
+<br/>
+<label>Plaats:
+<input type="text" name="plaats" /></label>
+<br/>
+<label>Telefoon:
+<input type="text" name="telefoon" /></label>
+<br/>
+<label>Email:
+<input type="text" name="email" /></label>
+<br/>
+<label>Naam:
+<input type="text" name="naam" /></label>
+<br/>
+</p>
+
+<!--Aanmelden-->
+
+<p>Ik wil mij aanmelden voor:
+    <br/>
+    <input type="radio" name="keuze" value="project"/>Voor een project <br/>
+<input type="radio" name="keuze" value="stage" />
+Als stagebedrijf
+</p>
+
+
+<!--keuze is Project-->
+<h2>Project</h2>
+
+<p>
+<label>Titel:
+<input type="text" name="titel" /></label>
+<br/>
+<label>Opdrachtomschrijving:
+<textarea name="opdrachtomschrijving">Beschrijf de opdracht.</textarea></label>
+<br/>
+<label>Doelgroepomschrijving:
+<textarea name="opdrachtomschrijving">Beschrijf de doelgroep.</textarea></label>
+<br/>
+<label>Doelstelling/intentie van het project:
+<textarea name="opdrachtomschrijving">Doelstelling/intentie van het project:</textarea></label>
+</p>
+
+<p>Geschikt voor:
+     <br/>
+<input type="checkbox" name="eerste">Eerstejaars studenten
+<br>
+<input type="checkbox" name="tweede">Tweedejaars studenten
+<br>
+<input type="checkbox" name="derde">Derdejaars studenten
+<br>
+<input type="checkbox" name="afstudeer">Afstudeer studenten
+<br>
+<input type="checkbox" name="onbekend">Onbekend
+<br>
+<label>Opmerkingen:
+<textarea name="opdrachtomschrijving">opmerkingen.</textarea></label>
+</p>
+
+
+
+<!--keuze is Stage-->
+<h2>Stage</h2>
+
+<p>Geschikt voor:
+     <br/>
+<input type="checkbox" name="eerste">Eerstejaars studenten
+<br>
+<input type="checkbox" name="tweede">Tweedejaars studenten
+<br>
+<input type="checkbox" name="derde">Derdejaars studenten
+<br>
+<input type="checkbox" name="afstudeer">Afstudeer studenten
+<br>
+<input type="checkbox" name="onbekend">Onbekend
+<br>
+</p>
+
+<p>Hoe lang is de stage?
+    <br/>
+    <input type="radio" name="duur" value="10"/>10 weken <br/>
+<input type="radio" name="duur" value="20" />
+20 weken
+</p>
+
+
+<p>
+<label>Begin Datum:
+<input type="date" name="datum"></label>
+<br/>
+<label>Omschrijving werkzaamheden:
+<textarea name="werkzaamheden">Beschrijf de werkzaamheden.</textarea></label>
+
+<p>
+<label>Bedrijfsnaam:
+<input type="text" name="naam" /></label>
+<br/>
+<label>Adres:
+<input type="text" name="adres" /></label>
+<br/>
+<label>Postcode:
+<input type="text" name="postcode" /></label>
+<br/>
+<label>Plaats:
+<input type="text" name="plaats" /></label>
+<br/>
+<label>Sector:
+<input type="text" name="telefoon" /></label>
+<br/>
+<label>Core Business:
+<input type="text" name="email" /></label>
+<br/>
+<label>Opmerkingen:
+<textarea name="werkzaamheden">opmerkingen.</textarea></label>
+</p>
+
+
+<input type="submit">  
+
+</form>
+
+
+    </body>
+</html>
