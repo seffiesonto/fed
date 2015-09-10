@@ -25,32 +25,26 @@ Amsterdam.</em></p>
  <p>
 <label>Naam:
 <input type="text" name="naam" /></label>
-<br/>
 <label>Adres:
 <input type="text" name="adres" /></label>
-<br/>
 <label>Postcode:
 <input type="text" name="postcode" /></label>
-<br/>
 <label>Plaats:
 <input type="text" name="plaats" /></label>
-<br/>
 <label>Telefoon:
 <input type="text" name="telefoon" /></label>
-<br/>
 <label>Email:
 <input type="text" name="email" /></label>
-<br/>
 <label>Naam:
 <input type="text" name="naam" /></label>
-<br/>
+
 </p>
 
 <!--Aanmelden-->
 
 <p>Ik wil mij aanmelden voor:
-    <br/>
-    <input type="radio" name="keuze" value="project"/>Voor een project <br/>
+    
+    <input type="radio" name="keuze" value="project"/>Voor een project 
 <input type="radio" name="keuze" value="stage" />
 Als stagebedrijf
 </p>
@@ -62,29 +56,21 @@ Als stagebedrijf
 <p>
 <label>Titel:
 <input type="text" name="titel" /></label>
-<br/>
 <label>Opdrachtomschrijving:
 <textarea name="opdrachtomschrijving">Beschrijf de opdracht.</textarea></label>
-<br/>
 <label>Doelgroepomschrijving:
 <textarea name="opdrachtomschrijving">Beschrijf de doelgroep.</textarea></label>
-<br/>
 <label>Doelstelling/intentie van het project:
 <textarea name="opdrachtomschrijving">Doelstelling/intentie van het project:</textarea></label>
 </p>
 
 <p>Geschikt voor:
-     <br/>
+     
 <input type="checkbox" name="eerste">Eerstejaars studenten
-<br>
 <input type="checkbox" name="tweede">Tweedejaars studenten
-<br>
 <input type="checkbox" name="derde">Derdejaars studenten
-<br>
 <input type="checkbox" name="afstudeer">Afstudeer studenten
-<br>
 <input type="checkbox" name="onbekend">Onbekend
-<br>
 <label>Opmerkingen:
 <textarea name="opdrachtomschrijving">opmerkingen.</textarea></label>
 </p>
@@ -95,22 +81,18 @@ Als stagebedrijf
 <h2>Stage</h2>
 
 <p>Geschikt voor:
-     <br/>
+     
 <input type="checkbox" name="eerste">Eerstejaars studenten
-<br>
 <input type="checkbox" name="tweede">Tweedejaars studenten
-<br>
 <input type="checkbox" name="derde">Derdejaars studenten
-<br>
 <input type="checkbox" name="afstudeer">Afstudeer studenten
-<br>
 <input type="checkbox" name="onbekend">Onbekend
-<br>
+
 </p>
 
 <p>Hoe lang is de stage?
-    <br/>
-    <input type="radio" name="duur" value="10"/>10 weken <br/>
+    
+    <input type="radio" name="duur" value="10"/>10 weken 
 <input type="radio" name="duur" value="20" />
 20 weken
 </p>
@@ -119,29 +101,22 @@ Als stagebedrijf
 <p>
 <label>Begin Datum:
 <input type="date" name="datum"></label>
-<br/>
 <label>Omschrijving werkzaamheden:
 <textarea name="werkzaamheden">Beschrijf de werkzaamheden.</textarea></label>
 
 <p>
 <label>Bedrijfsnaam:
 <input type="text" name="naam" /></label>
-<br/>
 <label>Adres:
 <input type="text" name="adres" /></label>
-<br/>
 <label>Postcode:
 <input type="text" name="postcode" /></label>
-<br/>
 <label>Plaats:
 <input type="text" name="plaats" /></label>
-<br/>
 <label>Sector:
 <input type="text" name="telefoon" /></label>
-<br/>
 <label>Core Business:
 <input type="text" name="email" /></label>
-<br/>
 <label>Opmerkingen:
 <textarea name="werkzaamheden">opmerkingen.</textarea></label>
 </p>
