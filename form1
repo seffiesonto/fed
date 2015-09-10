@@ -22,7 +22,7 @@ Amsterdam.</em></p>
 
 <h2>Contactgegevens:</h2>
 <form>
- <p>
+<p>
 <label>Naam:
 <input type="text" name="naam" /></label>
 <label>Adres:
@@ -37,13 +37,11 @@ Amsterdam.</em></p>
 <input type="text" name="email" /></label>
 <label>Naam:
 <input type="text" name="naam" /></label>
-
 </p>
 
 <!--Aanmelden-->
 
 <p>Ik wil mij aanmelden voor:
-    
     <input type="radio" name="keuze" value="project"/>Voor een project 
 <input type="radio" name="keuze" value="stage" />
 Als stagebedrijf
@@ -65,7 +63,6 @@ Als stagebedrijf
 </p>
 
 <p>Geschikt voor:
-     
 <input type="checkbox" name="eerste">Eerstejaars studenten
 <input type="checkbox" name="tweede">Tweedejaars studenten
 <input type="checkbox" name="derde">Derdejaars studenten
@@ -81,17 +78,14 @@ Als stagebedrijf
 <h2>Stage</h2>
 
 <p>Geschikt voor:
-     
 <input type="checkbox" name="eerste">Eerstejaars studenten
 <input type="checkbox" name="tweede">Tweedejaars studenten
 <input type="checkbox" name="derde">Derdejaars studenten
 <input type="checkbox" name="afstudeer">Afstudeer studenten
 <input type="checkbox" name="onbekend">Onbekend
-
 </p>
 
 <p>Hoe lang is de stage?
-    
     <input type="radio" name="duur" value="10"/>10 weken 
 <input type="radio" name="duur" value="20" />
 20 weken
@@ -102,7 +96,7 @@ Als stagebedrijf
 <label>Begin Datum:
 <input type="date" name="datum"></label>
 <label>Omschrijving werkzaamheden:
-<textarea name="werkzaamheden">Beschrijf de werkzaamheden.</textarea></label>
+<textarea name="werkzaamheden">Beschrijf de werkzaamheden.</textarea></label></p>
 
 <p>
 <label>Bedrijfsnaam:
